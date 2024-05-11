@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,p,ul{
+    color: antiquewhite;
+    margin-bottom: 5%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+.secciones{
+    padding: 3%;
+}
+
+body{
+    background-image: url(fotos/alex-kolundzija-Nrbqdu3GAZs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header, footer {
+    
+    color: white;
+    text-align: center;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+li {
+    margin-bottom: 5px;
+    text-align: start;
+    color: antiquewhite;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1.titulo {
+    background-color: rgba(72, 209, 205, 0.37);
+    text-align: center;
+    padding: 2%;
+}
+
+.yoimg { 
+    width: 40%;
+}
